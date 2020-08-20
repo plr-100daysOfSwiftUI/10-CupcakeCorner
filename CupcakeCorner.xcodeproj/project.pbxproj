@@ -16,6 +16,7 @@
 		8B5ADB2124EA5A4C006EBEAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B5ADB2024EA5A4C006EBEAC /* Assets.xcassets */; };
 		8B5ADB2424EA5A4C006EBEAC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B5ADB2324EA5A4C006EBEAC /* Preview Assets.xcassets */; };
 		8B5ADB2724EA5A4C006EBEAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B5ADB2524EA5A4C006EBEAC /* LaunchScreen.storyboard */; };
+		8B7BA3DA24EED5A3001EDCE5 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8B7BA3D924EED5A3001EDCE5 /* README.md */; };
 		8BFAB9FA24EE68F50055A908 /* Extension-String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFAB9F924EE68F50055A908 /* Extension-String.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,7 @@
 		8B5ADB2324EA5A4C006EBEAC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8B5ADB2624EA5A4C006EBEAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B5ADB2824EA5A4C006EBEAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B7BA3D924EED5A3001EDCE5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8BFAB9F924EE68F50055A908 /* Extension-String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension-String.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -48,6 +50,7 @@
 		8B5ADB0E24EA5A48006EBEAC = {
 			isa = PBXGroup;
 			children = (
+				8B7BA3D924EED5A3001EDCE5 /* README.md */,
 				8B5ADB1924EA5A48006EBEAC /* CupcakeCorner */,
 				8B5ADB1824EA5A48006EBEAC /* Products */,
 			);
@@ -147,6 +150,7 @@
 			files = (
 				8B5ADB2724EA5A4C006EBEAC /* LaunchScreen.storyboard in Resources */,
 				8B5ADB2424EA5A4C006EBEAC /* Preview Assets.xcassets in Resources */,
+				8B7BA3DA24EED5A3001EDCE5 /* README.md in Resources */,
 				8B5ADB2124EA5A4C006EBEAC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
