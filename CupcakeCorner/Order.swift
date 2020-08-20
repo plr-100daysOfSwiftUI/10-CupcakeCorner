@@ -30,36 +30,6 @@ struct OrderData: Codable {
 	var city = ""
 	var zip = ""
 	
-	var hasValidAddress: Bool {
-		if name.isEmpty || streetAddress.isEmpty || city.isEmpty || zip.isEmpty {
-			return false
-		} else if name.isBlank || streetAddress.isBlank || city.isBlank || zip.isBlank {
-			return false
-		}
-		return true
-	}
-	
-	var cost: Double {
-		// $2 per cake
-		var cost = Double(quantity) * 2
-		
-		// complicated cakes cost more
-		cost += (Double(type) / 2)
-		
-		// $1/cake for extra frosting
-		if extraFrosting {
-			cost += Double(quantity)
-		}
-		
-		// $0.50/cake for sprinkles
-		if addSprinkles {
-			cost += Double(quantity) / 2
-		}
-		
-		return cost
-		
-	}
-
 }
 
 class Order: ObservableObject, Codable {
@@ -69,6 +39,36 @@ class Order: ObservableObject, Codable {
 	}
 	
 	@Published var data: OrderData
+	
+	var hasValidAddress: Bool {
+		if data.name.isEmpty || data.streetAddress.isEmpty || data.city.isEmpty || data.zip.isEmpty {
+			return false
+		} else if data.name.isBlank || data.streetAddress.isBlank || data.city.isBlank || data.zip.isBlank {
+			return false
+		}
+		return true
+	}
+	
+	var cost: Double {
+		// $2 per cake
+		var cost = Double(data.quantity) * 2
+		
+		// complicated cakes cost more
+		cost += (Double(data.type) / 2)
+		
+		// $1/cake for extra frosting
+		if data.extraFrosting {
+			cost += Double(data.quantity)
+		}
+		
+		// $0.50/cake for sprinkles
+		if data.addSprinkles {
+			cost += Double(data.quantity) / 2
+		}
+		
+		return cost
+		
+	}
 	
 	init() {
 		self.data = OrderData()
