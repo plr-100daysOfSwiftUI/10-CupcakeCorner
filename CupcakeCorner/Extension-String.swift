@@ -3,7 +3,7 @@
 //  CupcakeCorner
 //
 //  Created by Paul Richardson on 20.08.2020.
-//  Copyright © 2020 Developer. All rights reserved.
+//  Copyright © 2020 Paul Richardson. All rights reserved.
 //
 
 import Foundation
