@@ -56,6 +56,9 @@ struct CheckoutView: View {
 		URLSession.shared.dataTask(with: request) { data, response, error in
 			guard let data = data else {
 				print("No data in response: \(error?.localizedDescription ?? "Unknown error")")
+				self.alertTitle = "An error occurred!"
+				self.alertMessage = "\(error?.localizedDescription ?? "Unknown error")"
+				self.showingAlert = true
 				return
 			}
 			
