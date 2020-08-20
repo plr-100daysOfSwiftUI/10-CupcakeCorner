@@ -31,7 +31,6 @@
 		8B5ADB2324EA5A4C006EBEAC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8B5ADB2624EA5A4C006EBEAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B5ADB2824EA5A4C006EBEAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8BFAB9F824EE64930055A908 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8BFAB9F924EE68F50055A908 /* Extension-String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension-String.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -65,7 +64,6 @@
 		8B5ADB1924EA5A48006EBEAC /* CupcakeCorner */ = {
 			isa = PBXGroup;
 			children = (
-				8BFAB9F824EE64930055A908 /* README.md */,
 				8B5ADB2824EA5A4C006EBEAC /* Info.plist */,
 				8B3891EB24EBB5EE00AF3977 /* AddressView.swift */,
 				8B5ADB1A24EA5A48006EBEAC /* AppDelegate.swift */,
