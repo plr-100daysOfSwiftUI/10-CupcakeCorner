@@ -30,6 +30,7 @@
 		8B5ADB2324EA5A4C006EBEAC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8B5ADB2624EA5A4C006EBEAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B5ADB2824EA5A4C006EBEAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BFAB9F824EE64930055A908 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +73,7 @@
 				8B5ADB2024EA5A4C006EBEAC /* Assets.xcassets */,
 				8B5ADB2524EA5A4C006EBEAC /* LaunchScreen.storyboard */,
 				8B5ADB2224EA5A4C006EBEAC /* Preview Content */,
+				8BFAB9F824EE64930055A908 /* README.md */,
 			);
 			path = CupcakeCorner;
 			sourceTree = "<group>";
